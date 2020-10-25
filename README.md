@@ -15,11 +15,12 @@ r n - where n is a number, will command the program to execute a previous comman
 r - will command the program to execute the previous command.
 
 The program compiles and runs efficiently with small bugs such as:
-	- r n commmands sometimes cause the program to crash and not complete the cycle.
-	- r command sometimes causes the program to crash an not complete the cycle.
-
-- Sources Used Included Below -  
-- Example codes provided by Dr. Kar were also used as reference. -  
+- r n commmands sometimes cause the program to crash and not complete the cycle.  
+- r command sometimes causes the program to crash an not complete the cycle.  
+- I/O Redirection may cause program to crash.  
+   
+Sources Used Included Below -  
+Example codes provided by Dr. Kar were also used as reference. -  
 Shell Structure:
 https://www.gnu.org/software/libc/manual/html_node/Implementing-a-Shell.html
 
